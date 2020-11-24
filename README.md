@@ -1,2 +1,2 @@
-# nomads
+# Nomads
 Market Place Template
