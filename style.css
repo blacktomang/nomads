@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+input, button { border:none; } 
+
+.container{
+  height: 100vh;
+  background-image: url('img/bg1.png');
+  background-size: cover;
+}
+.container::before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background:black;
+  z-index: 1;
+  opacity: 0.4;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+}
+
+nav{
+  display:flex;
+  background: white;
+  padding: 0;
+  width: 78%;
+  position: fixed;
+  align-items: center;
+  z-index: 3;    
+}
+.navbar{
+  display: flex;
+  position: relative;
+  left: 32px;
+}
+.logo{
+  margin-right: auto;
+  margin-left: 1rem;
+  cursor: pointer;
+  color: #071C4D;
+}
+.navbar li{
+  list-style:none;
+}
+ul{
+  display: flex;
+  align-items: center;
+}
+.nav-item {
+ padding: 0 2rem;
+}
+
+.nav-item a{
+  text-decoration: none;
+  color: #071C4D;
+  display: inline-block;
+  width: 100%;
+  font-size: 20px;
+  font-family: 'Assistant', sans-serif;
+  z-index: 2;
+}
+ul li a.special{
+  background-color:#071C4D;
+  color: white;
+  padding: .7rem 2rem;
+  position: relative;
+}
+header{
+  height: 100vh;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.row{
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  flex-direction: column;
+  color:#FFFFFF;
+  z-index: 2;
+}
+.row h1{
+  font-size: 50px;
+font-weight: bold;
+width: 65%;
+text-align: center;
+margin-bottom: 1rem;
+font-family: 'Playfair Display', serif;
+}
+.row p{
+  font-size: 22px;
+  width: 30%;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-family: 'Assistant', sans-serif;
+}
+.btn{
+  position: relative;
+  top: 3rem;
+  width: 170px;
+  height: 45px;
+  background:#FF9E53;
+  font-size: 20px;
+  border-radius: 4px;
+}
+/* button color #FF9E53
+section #051334 */
