@@ -15,7 +15,6 @@ input, button { border:none;}
 .container
 header{
   height: 100vh;
-  width: 100%;
   margin: auto;
   display: flex;
   justify-content: center;
@@ -92,6 +91,7 @@ ul li a.special{
   flex-direction: column;
   color:#FFFFFF;
   top:3rem;
+  max-height: 86vh;
 }
 .row h1{
   font-size: 50px;
